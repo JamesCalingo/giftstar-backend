@@ -15,7 +15,7 @@ type application struct {
 func main() {
 	var app application
 
-	app.Domain = "imabigmoronwhocantremembermylines.com"
+	app.Domain = "imabigmoronwhocantrememberhislines.com"
 
 	log.Println("Connected to", port)
 	err := http.ListenAndServe(fmt.Sprintf(":%d", port), app.routes())
